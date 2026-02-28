@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chiacon AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <div class="container">
+    <h1>🚀 Chiacon AI Demo</h1>
+    <p class="subtitle">Smart Business Intelligence Assistant</p>
+
+    <div class="card">
+      <textarea id="prompt" placeholder="Ask something about AI, marketing, supply chain..."></textarea>
+      <button onclick="generateResponse()">Generate AI Response</button>
+    </div>
+
+    <div id="loader" class="loader hidden"></div>
+
+    <div id="response" class="response hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
