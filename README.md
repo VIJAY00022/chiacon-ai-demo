@@ -1,0 +1,1 @@
+Chiacon AI is a  AI chatbot web application that allows users to interact with an AI model in real-time. The application processes user input, sends it to an AI API, and returns intelligent, dynamically generated responses through a modern and responsive web interface.
